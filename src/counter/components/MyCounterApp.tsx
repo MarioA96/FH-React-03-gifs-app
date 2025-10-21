@@ -1,8 +1,8 @@
-import { useCounter } from "../hooks/useCounter"
+import { useCounter } from "../hooks/useCounter";
 
 export const MyCounterApp = () => {
     
-    const { counter, handleAdd, handleSubract, handleReset } = useCounter(5);
+    const { counter, handleAdd, handleSubract, handleReset } = useCounter();
 
     return (
         <div 
